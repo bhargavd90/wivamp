@@ -6,7 +6,7 @@ from handle_service import handle_service
 from gutting_service import gutting_service
 from knocking_service import knocking_service
 
-st.subheader('Repair Services')
+st.subheader(':male-construction-worker: Repair Services')
 
 if 'finalise' not in st.session_state.keys():
     hide_pages(['Finalise'])

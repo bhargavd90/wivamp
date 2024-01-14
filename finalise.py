@@ -15,7 +15,7 @@ total_cost = 0
 
 column_details_0, column_details_1 = st.columns(2)
 with column_details_0:
-    st.subheader('Details Summary')
+    st.subheader(':bust_in_silhouette: Details Summary')
     st.markdown('##')
     st.text('First Name : ' + st.session_state["first_name"])
     st.text('last Name : ' + st.session_state["last_name"])
@@ -30,7 +30,7 @@ st.markdown('---')
 
 column_repairs_0, column_repairs_1 = st.columns(2)
 with column_repairs_0:
-    st.subheader('Repairs Summary')
+    st.subheader(':shopping_trolley: Repairs Summary')
     if 'select_bat_service' in st.session_state.keys() or 'select_handle_service' in st.session_state.keys() or 'select_gutting_service' in st.session_state.keys() or 'select_knocking_service' in st.session_state.keys():
         if st.session_state["select_bat_service"]:
             if st.session_state["condition_bat_1"] and st.session_state["condition_bat_2"]:
@@ -70,7 +70,7 @@ with column_repairs_0:
                  'Cost': cost
                  })
             st.session_state['df'] = df
-            st.dataframe(df.style.map(
+            st.dataframe(df.style.applymap(
                 lambda _: "background-color: CornflowerBlue;", subset=([len(service)-1], slice(None))
             ), hide_index=True)
         else:

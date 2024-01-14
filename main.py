@@ -23,12 +23,16 @@ if 'finalise' not in st.session_state.keys():
     hide_pages(['Finalise'])
 hide_pages(['Message'])
 
-st.title("WEVAMP REPAIRS")
+st.title(":cricket_bat_and_ball: Willowrevamp Repairs")
 st.markdown("##")
-st.header("This page if for bat repairs")
-st.subheader('This page if for bat repairs')
+# st.header(":point_right: This page if for bat repairs")
+st.subheader(':point_right: This page if for bat repairs')
+st.subheader(':point_right: This page if for bat repairs')
+st.subheader(':point_right: This page if for bat repairs')
+st.subheader(':point_right: This page if for bat repairs')
+st.subheader(':point_right: This page if for bat repairs')
 st.markdown("##")
 st.markdown("##")
 st.markdown("##")
-if st.button('proceed to details'):
+if st.button('proceed to repairs'):
     switch_page('repairs')

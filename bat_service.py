@@ -19,7 +19,7 @@ def bat_service():
         st.subheader('1. Bat Repair')
         st.image('6340825.jpg')
     with column_1_1:
-        st.subheader('40 Euro')
+        st.subheader('40 :euro:')
         if "select_bat_service" not in st.session_state:
             st.session_state["select_bat_service"] = False
         if "condition_bat_1" not in st.session_state:

@@ -19,7 +19,7 @@ def gutting_service():
         st.subheader('3. Gutting')
         st.image('6374715.jpg')
     with column_1_1:
-        st.subheader('20 Euro')
+        st.subheader('20 :euro:')
         if "select_gutting_service" not in st.session_state:
             st.session_state["select_gutting_service"] = False
         if "condition_gutting_1" not in st.session_state:

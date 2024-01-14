@@ -19,7 +19,7 @@ def handle_service():
         st.subheader('2. Handle Repair')
         st.image('6408176.jpg')
     with column_1_1:
-        st.subheader('30 Euro')
+        st.subheader('30 :euro:')
         if "select_handle_service" not in st.session_state:
             st.session_state["select_handle_service"] = False
         if "condition_handle_1" not in st.session_state:

@@ -19,7 +19,7 @@ def knocking_service():
         st.subheader('4. Knocking')
         st.image('6340825.jpg')
     with column_1_1:
-        st.subheader('10 Euro')
+        st.subheader('10 :euro:')
         if "select_knocking_service" not in st.session_state:
             st.session_state["select_knocking_service"] = False
         if "condition_knocking_1" not in st.session_state:

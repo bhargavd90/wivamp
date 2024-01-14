@@ -2,7 +2,7 @@ import streamlit as st
 from streamlit_extras.switch_page_button import switch_page
 from st_pages import hide_pages
 
-st.subheader('Personal Details')
+st.subheader(':bust_in_silhouette: Personal Details')
 
 st.session_state['details_error'] = False
 
